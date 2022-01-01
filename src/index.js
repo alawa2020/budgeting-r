@@ -4,8 +4,4 @@ import BudgetingApp from './BudgetingApp';
 
 import './index.css';
 
-ReactDOM.render(
-    <BudgetingApp />,
-  document.getElementById('root')
-);
-
+ReactDOM.render(<BudgetingApp />, document.getElementById('root'));

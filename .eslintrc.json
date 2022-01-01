@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": ["warn", "windows"],
+    "arrow-body-style": "off",
+    "react/function-component-definition": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/no-unescaped-entities": "off",
+    "no-unused-vars": "warn",
+    "prefer-const": "warn",
+    "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "import/no-unresolved": "off",
+    "react/jsx-boolean-value": "off",
+    "react/no-unstable-nested-components": "off"
+  },
+  "plugins": ["prettier"]
+}
