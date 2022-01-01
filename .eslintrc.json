@@ -20,7 +20,8 @@
     "react/jsx-no-constructed-context-values": "off",
     "import/no-unresolved": "off",
     "react/jsx-boolean-value": "off",
-    "react/no-unstable-nested-components": "off"
+    "react/no-unstable-nested-components": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   },
   "plugins": ["prettier"]
 }
