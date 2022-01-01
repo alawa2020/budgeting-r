@@ -11,6 +11,8 @@ const LoginScreen = () => {
 
   const history = useHistory();
 
+  const lastPath = localStorage.getItem('lastpath-budgeting') || '/home';
+
   const handleSubmitLogin = (e) => {
     e.preventDefault();
     if (nick.trim().length > 2) {
@@ -20,7 +22,7 @@ const LoginScreen = () => {
           nick,
         },
       });
-      history.replace('/home');
+      history.replace(lastPath);
       return;
     }
     alert('error! login is not possible!');
