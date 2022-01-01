@@ -1,9 +1,10 @@
 import React from 'react';
+import AppRouter from './routers/AppRouter';
 
 const BudgetingApp = () => {
   return (
     <div>
-      <h1>Hello to Budgeting App!</h1>
+      <AppRouter />
     </div>
   );
 };
